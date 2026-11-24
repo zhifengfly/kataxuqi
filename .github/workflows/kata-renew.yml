@@ -3,7 +3,7 @@ name: "@s5gydl kata 自动续期任务"
 on:
   schedule:
     # 每天执行：UTC 01:00 (北京时间 上午 09:00)
-    - cron: '8 1 * * *'
+    - cron: '8 7 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
